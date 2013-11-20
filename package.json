@@ -1,17 +1,17 @@
 {
-  "name": "xcharts",
+  "name": "browserify-xcharts",
   "version": "0.3.0",
   "description": "A D3-based library for building custom charts and graphs.",
-  "main": "build/xcharts.js",
-  "homepage": "http://tenxer.github.com/xcharts/",
+  "main": "lib/chart.js",
+  "homepage": "https://github.com/antonamurskiy/xcharts/",
   "scripts": {
     "test": "make lint && make test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tenxer/xcharts.git"
+    "url": "https://github.com/antonamurskiy/xcharts.git"
   },
-  "bugs": "https://github.com/tenxer/xcharts/issues",
+  "bugs": "https://github.com/antonamurskiy/xcharts/issues",
   "keywords": [
     "chart",
     "d3.js",
@@ -25,19 +25,22 @@
   },
   "contributors": [
     "Paul Armstrong <paul@paularmstrongdesigns.com>"
+    "Anton Amurskiy <antonamurskiy@gmail.com>"
   ],
   "license": "MIT",
   "browserify": {
     "transform": "lessify"
   },
-  "devDependencies": {
+  "dependencies":{
     "underscore": "~1.4.3",
+    "d3": "~3.3.10"
+  },
+  "devDependencies": {
     "less": "~1.3.1",
     "uglify-js": "~2.2.2",
     "nodelint": "~0.6",
     "mocha": "~1.9",
     "expect.js": "~0.1",
-    "d3": "*",
     "lessify": "~0.1.0",
     "still": "*",
     "swig": "*",
