@@ -24,7 +24,7 @@
     "url": "http://www.tenxer.com"
   },
   "contributors": [
-    "Paul Armstrong <paul@paularmstrongdesigns.com>"
+    "Paul Armstrong <paul@paularmstrongdesigns.com>",
     "Anton Amurskiy <antonamurskiy@gmail.com>"
   ],
   "license": "MIT",
@@ -33,6 +33,7 @@
   },
   "dependencies":{
     "underscore": "~1.4.3",
+    "lessify": "~0.1.0",
     "d3": "~3.3.10"
   },
   "devDependencies": {
@@ -41,7 +42,6 @@
     "nodelint": "~0.6",
     "mocha": "~1.9",
     "expect.js": "~0.1",
-    "lessify": "~0.1.0",
     "still": "*",
     "swig": "*",
     "mocha-phantomjs": "~3.0",
