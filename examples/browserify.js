@@ -1,5 +1,4 @@
 var visutils = require('../lib/visutils');
-console.log(visutils);
 var scales = require('../lib/scales');
 var bar = require('../lib/vis/bar');
 var cumulative = require('../lib/vis/cumulative');
@@ -13,7 +12,6 @@ mychart = document.createElement('figure')
 mychart.id = 'mychart'
 mychart.style.height = '500px';
 mychart.style.width = '500px';
-
 
 document.body.appendChild(mychart);
 
